@@ -933,6 +933,7 @@ dtb-$(CONFIG_ARCH_IMX8ULP) += \
 
 dtb-$(CONFIG_ARCH_IMX8M) += \
 	imx8mm-data-modul-edm-sbc.dtb \
+	imx8mp-debix.dtb \
 	imx8mm-ddr4-ab2.dtb \
 	imx8mm-ab2.dtb \
 	imx8mm-icore-mx8mm-ctouch2.dtb \
@@ -966,7 +967,6 @@ dtb-$(CONFIG_ARCH_IMX8M) += \
 dtb-$(CONFIG_ARCH_IMX9) += \
 	imx95-15x15-evk.dtb \
 	imx95-15x15-frdm.dtb \
-	imx95-19x19-frdm-pro.dtb \
 	imx95-19x19-verdin.dtb \
 	imx943-evk.dtb \
 	imx943-orangebox.dtb \
@@ -975,7 +975,6 @@ dtb-$(CONFIG_ARCH_IMX9) += \
 	imx91-11x11-frdm-imx91s.dtb \
 	imx93-var-som-symphony.dtb \
 	imx93-phyboard-segin.dtb \
-	imx93w-evk.dtb \
 	imx93-11x11-frdm.dtb
 
 dtb-$(CONFIG_ARCH_IMXRT) += imxrt1050-evk.dtb \
